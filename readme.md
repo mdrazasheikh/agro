@@ -57,7 +57,16 @@ java -Dspring.server.port=8888 -jar ./target/agro.jar
 ```
 # Run as post
 curl -X POST http://localhost:8888/mock/
+
+# Login - admin
+username : admin_user
+password: password
+
+# Login - user
+username: user_user
+password: password
 ```
+
 
 ## API Documentation for application -openapi (swagger)
 Make sure the application is running viewing this in browser.

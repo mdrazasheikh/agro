@@ -21,6 +21,8 @@ com/test/agro/controller/TractorController.class
 com/test/agro/controller/FieldController.class
 com/test/agro/exception/FieldProcessException.class
 com/test/agro/hawks/ResponseHawk.class
+com/test/agro/validators/DateInSecondsValidator.class
+com/test/agro/validators/DateInSeconds.class
 com/test/agro/repository/TractorRepository.class
 com/test/agro/controller/AuthController.class
 com/test/agro/AgroApplication.class

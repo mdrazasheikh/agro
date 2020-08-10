@@ -20,6 +20,7 @@
 /Users/raza/private/agro/src/main/java/com/test/agro/dto/LoginResponseDto.java
 /Users/raza/private/agro/src/main/java/com/test/agro/exception/AuthException.java
 /Users/raza/private/agro/src/main/java/com/test/agro/dto/UserDto.java
+/Users/raza/private/agro/src/main/java/com/test/agro/validators/DateInSecondsValidator.java
 /Users/raza/private/agro/src/main/java/com/test/agro/service/ReportService.java
 /Users/raza/private/agro/src/main/java/com/test/agro/service/TractorService.java
 /Users/raza/private/agro/src/main/java/com/test/agro/contracts/AuthInterface.java
@@ -33,6 +34,7 @@
 /Users/raza/private/agro/src/main/java/com/test/agro/service/FieldProcessingService.java
 /Users/raza/private/agro/src/main/java/com/test/agro/entity/FieldEntity.java
 /Users/raza/private/agro/src/main/java/com/test/agro/contracts/TractorInterface.java
+/Users/raza/private/agro/src/main/java/com/test/agro/validators/DateInSeconds.java
 /Users/raza/private/agro/src/main/java/com/test/agro/entity/UserRoleEntity.java
 /Users/raza/private/agro/src/main/java/com/test/agro/exception/ResourceAccessNotAllowedException.java
 /Users/raza/private/agro/src/main/java/com/test/agro/controller/FieldProcessingController.java
