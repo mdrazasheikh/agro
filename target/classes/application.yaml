@@ -1,0 +1,29 @@
+spring:
+  data:
+    mongodb:
+#      username: admin
+#      password: admin
+#      authentication-database: admin
+#      host: localhost
+      host: mongodb-datastore
+      port: 27017
+      database: agro
+  application:
+    name: agro
+server:
+  port: 8080
+info:
+  app:
+    name: agro
+    description: Agriculture. Implement a mini-system what allows storing information about Fields,
+      Tractors and Processed Fields and generating additional reports
+    version: 1.0
+    phase: Development
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
