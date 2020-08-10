@@ -16,7 +16,7 @@
 * mongodb without authentication
 
 ## Installation
-#### With Docker. JAR file is required on the local machine in target folder
+#### With Docker. JAR file required on the local machine in target folder
 ```
 # cd to project root
 cd /to/the/project/root
