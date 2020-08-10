@@ -98,7 +98,7 @@ public class MockDataController {
         fieldProcessingEntity.setTractorName("tractor_1");
         fieldProcessingEntity.setCulture("broccoli");
         fieldProcessingEntity.setArea(20.0);
-        fieldProcessingEntity.setIsProcessed(false);
+        fieldProcessingEntity.setIsProcessed(true);
         fieldProcessingEntity.setCreatedBy("2");
         fieldProcessingEntity.setDate(String.valueOf(calendar.toInstant().getEpochSecond()));
 
