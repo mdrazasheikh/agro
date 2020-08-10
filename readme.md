@@ -69,5 +69,5 @@ password: password
 
 
 ## API Documentation for application -openapi (swagger)
-Make sure the application is running viewing this in browser.
+Make sure the application is running before viewing this in browser.
 [http://localhost:8888/swagger-ui.html](http://localhost:8888/swagger-ui.html)
