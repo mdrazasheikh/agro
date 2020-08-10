@@ -1,5 +1,5 @@
 ## Introduction
-* Built with [Java 8](https://java.com/en/download/) with [sprint boot 2.3.2](https://spring.io/projects/spring-boot) framework
+* Built with [Java 8](https://java.com/en/download/) with [spring boot 2.3.2](https://spring.io/projects/spring-boot) framework
 * Uses [Mongodb](https://www.mongodb.com/) as datastore
 * Uses JWT based authentication. To keep implementation simple, auth handled from code as opposed to spring security which is the way for production grade apps
 * Test cases only cover datastore operations for now
