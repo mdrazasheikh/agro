@@ -100,7 +100,7 @@ public class MockDataController {
         fieldProcessingEntity.setArea(20.0);
         fieldProcessingEntity.setIsProcessed(false);
         fieldProcessingEntity.setCreatedBy("2");
-        fieldProcessingEntity.setDate(String.valueOf(calendar.getTime().toInstant().getEpochSecond()));
+        fieldProcessingEntity.setDate(String.valueOf(calendar.toInstant().getEpochSecond()));
 
         fieldProcessingRepository.save(fieldProcessingEntity);
 
@@ -114,7 +114,7 @@ public class MockDataController {
         fieldProcessingEntity.setArea(20.0);
         fieldProcessingEntity.setIsProcessed(false);
         fieldProcessingEntity.setCreatedBy("2");
-        fieldProcessingEntity.setDate(String.valueOf(calendar.getTime().toInstant().getEpochSecond()));
+        fieldProcessingEntity.setDate(String.valueOf(calendar.toInstant().getEpochSecond()));
 
         fieldProcessingRepository.save(fieldProcessingEntity);
     }

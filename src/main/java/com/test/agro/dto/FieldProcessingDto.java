@@ -1,6 +1,7 @@
 package com.test.agro.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.test.agro.validators.DateInSeconds;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -21,6 +22,7 @@ public class FieldProcessingDto {
     String tractorId;
     @Size(min = 10, max = 10, message = "date should be in timestamp format of length 10")
     @NotEmpty(message = "date cannot be empty")
+    @DateInSeconds
     String date;
     @NotNull(message = "area cannot be empty")
     Double area;

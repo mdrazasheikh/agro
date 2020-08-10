@@ -9,9 +9,9 @@ import java.lang.annotation.Target;
 
 @Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
-@Constraint(validatedBy = FieldTypeValidator.class)
-public @interface FieldType {
-    String message() default "type is not allowed.";
+@Constraint(validatedBy = DateInSecondsValidator.class)
+public @interface DateInSeconds {
+    String message() default "date is invalid. Date should be in epoch seconds format";
 
     Class<?>[] groups() default {};
 
